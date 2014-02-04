@@ -1,0 +1,30 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: cache_development
+  port: 5432
+  pool: 5
+  host: localhost
+  username: cache
+  password: 12345678
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: cache_production
+  port: 5432
+  pool: 5
+  host: localhost
+  username: cache
+  password: 12345678
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: cache_test
+  port: 5432
+  pool: 5
+  host: localhost
+  username: cache
+  password: 12345678
+

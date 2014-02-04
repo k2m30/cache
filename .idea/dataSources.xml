@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2259570270">
+    <data-source source="LOCAL" name="Rails cache: development" uuid="66dce16e-9d96-46c8-b827-a76e5b3aacc6">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/cache_development</jdbc-url>
+      <user-name>cache</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails cache: test" uuid="06c481b4-6200-4d25-92dc-1679c89074cd">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/cache_test</jdbc-url>
+      <user-name>cache</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails cache: production" uuid="cb94204a-18bb-408c-b3f6-5f0faeb57d74">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/cache_production</jdbc-url>
+      <user-name>cache</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
