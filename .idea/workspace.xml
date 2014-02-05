@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="465" selection-end="465" vertical-scroll-proportion="0.4527163" vertical-offset="0" max-vertical-offset="497">
+            <state line="15" column="4" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unicorn_init.sh" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="unicorn_init.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="-10.384615" vertical-offset="15" max-vertical-offset="1350">
+            <state line="21" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.6369427" vertical-offset="15" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -106,11 +106,11 @@
         <option value="$PROJECT_DIR$/app/controllers/outgrader_controller.rb" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/config/nginx.conf" />
-        <option value="$PROJECT_DIR$/config/unicorn_init.sh" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/unicorn_init.sh" />
       </list>
     </option>
   </component>
@@ -802,9 +802,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="-10.384615" vertical-offset="15" max-vertical-offset="1350">
+        <state line="17" column="22" selection-start="460" selection-end="460" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -816,16 +823,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="460" selection-end="460" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="465" selection-end="465" vertical-scroll-proportion="0.4527163" vertical-offset="0" max-vertical-offset="497">
+        <state line="21" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.6369427" vertical-offset="15" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>
