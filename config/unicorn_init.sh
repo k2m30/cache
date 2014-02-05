@@ -21,11 +21,11 @@ set -u
 OLD_PIN="$PID.oldbin"
 
 sig () {
-  test -s "$PID" && kill -$1 `cat $PID`
+  test -s "$PID" && sudo kill -$1 `cat $PID`
 }
 
 oldsig () {
-  test -s $OLD_PIN && kill -$1 `cat $OLD_PIN`
+  test -s $OLD_PIN && sudo kill -$1 `cat $OLD_PIN`
 }
 
 run () {
