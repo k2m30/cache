@@ -1,19 +1,23 @@
 ActiveAdmin.register Site do
-
   permit_params :name, :css, banner_attributes: [:code, :site_id, :_destroy]
 
-  # See permitted parameters documentation:
-  # https://github.com/gregbell/active_admin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
-  #
-  # permit_params :list, :of, :attributes, :on, :model
-  #
-  # or
-  #
-  # permit_params do
-  #  permitted = [:permitted, :attributes]
-  #  permitted << :other if resource.something?
-  #  permitted
-  # end
+  member_action :add_links, method: :post do
+    begin
+      site = Site.find(params[:id])
+      redirect_to admin_sites_path, alert: :wrong_params if site.nil?
+      site.externals.create(url: params[:external], internal: Internal.create(url: params[:internal]))
+    rescue => e
+      redirect_to admin_site_path(site), alert: e.message
+      return
+    end
+    redirect_to admin_site_path(site)
+  end
+
+  collection_action :links, method: :get do
+    respond_to do |format|
+      format.json { render json: External.all.pluck(:url), status: :ok }
+    end
+  end
 
   index do
     column :name
@@ -24,11 +28,31 @@ ActiveAdmin.register Site do
     column :externals do |site|
       site.externals.count
     end
-
     default_actions
   end
 
   show do
+    panel :new_links do
+      render 'panel'
+    end
+
+    panel :links do
+      table_for site.externals.order(updated_at: :desc) do
+        column :url do |external|
+          link_to external.url, external.url
+        end
+        column :internal do |external|
+          link_to external.internal.url, external.internal.url if external.internal.present?
+        end
+        column :edit do |external|
+          link_to :edit_links, edit_admin_external_path(external)
+        end
+        column :delete_links do |external|
+          link_to :delete_links, admin_external_path(external), method: :delete
+        end
+      end
+    end
+
     attributes_table do
       row :css
       row :banner do |site|
