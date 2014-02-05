@@ -1,0 +1,12 @@
+%div.attributes_table.site
+  = form_tag add_links_admin_site_path
+  %table
+    %tbody
+      %tr.row
+        %th= label_tag :external
+        %td= text_field_tag :external
+      %tr.row
+        %th= label_tag :internal
+        %td= text_field_tag :internal
+  %div.buttons
+    = submit_tag :add_links
