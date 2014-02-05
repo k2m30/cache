@@ -32,7 +32,7 @@ namespace :deploy do
     sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
     sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
-    put File.read('config/database.example.yml'), "#{shared_path}/config/database.yml"
+    #put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
   end
   after 'deploy:setup', 'deploy:setup_config'
@@ -45,7 +45,7 @@ namespace :deploy do
   desc 'Make sure local git is in sync with remote.'
   task :check_revision, roles: :web do
     unless `git rev-parse HEAD` == `git rev-parse origin/master`
-      puts 'WARNING: HEAD is not the same as outgrader-test/master'
+      puts 'WARNING: HEAD is not the same as cache/master'
       puts 'Run `git push` to sync changes.'
       exit
     end
