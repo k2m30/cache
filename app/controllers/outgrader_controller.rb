@@ -12,4 +12,11 @@ class OutgraderController < ApplicationController
   def css
     render json: Site.select(:id, :name, :css )
   end
+  def all
+    array = []
+    Site.all.each do |site|
+      array << {site: site.name, code: site.banner.code, css: site.css, links: site.externals.pluck(:url)}
+    end
+    render json: array
+  end
 end

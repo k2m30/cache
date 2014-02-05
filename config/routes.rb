@@ -2,6 +2,7 @@ Cache::Application.routes.draw do
   get "outgrader/links" => 'outgrader#links'
   get "outgrader/redirect" => 'outgrader#redirect'
   get "outgrader/css" => 'outgrader#css'
+  get "outgrader/all" => 'outgrader#all'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
