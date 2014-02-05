@@ -26,7 +26,7 @@
       <file leaf-file-name="site.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/site.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="7" selection-start="559" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
+            <state line="29" column="20" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="outgrader_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/outgrader_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="283" selection-end="283" vertical-scroll-proportion="0.23183925" vertical-offset="0" max-vertical-offset="647">
+            <state line="8" column="33" selection-start="277" selection-end="277" vertical-scroll-proportion="0.1854714" vertical-offset="0" max-vertical-offset="647">
               <folding />
             </state>
           </provider>
@@ -99,8 +99,8 @@
         <option value="$PROJECT_DIR$/app/models/site.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/admin/sites/_panel.html.haml" />
-        <option value="$PROJECT_DIR$/app/admin/site.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/admin/site.rb" />
         <option value="$PROJECT_DIR$/app/controllers/outgrader_controller.rb" />
       </list>
     </option>
@@ -751,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/site.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="559" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="86" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
@@ -765,9 +758,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/site.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/outgrader_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="283" selection-end="283" vertical-scroll-proportion="0.23183925" vertical-offset="0" max-vertical-offset="647">
+        <state line="8" column="33" selection-start="277" selection-end="277" vertical-scroll-proportion="0.1854714" vertical-offset="0" max-vertical-offset="647">
           <folding />
         </state>
       </provider>

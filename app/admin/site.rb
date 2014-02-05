@@ -13,12 +13,6 @@ ActiveAdmin.register Site do
     redirect_to admin_site_path(site)
   end
 
-  collection_action :links, method: :get do
-    respond_to do |format|
-      format.json { render json: External.all.pluck(:url), status: :ok }
-    end
-  end
-
   index do
     column :name
     column :css
