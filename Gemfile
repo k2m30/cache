@@ -9,11 +9,21 @@ gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'faker'
+
 gem 'haml'
+
 gem 'better_errors'
 gem 'binding_of_caller'
+
+gem 'unicorn'
+
+gem 'rvm-capistrano'
+gem 'capistrano', '~> 2.15'
+
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
